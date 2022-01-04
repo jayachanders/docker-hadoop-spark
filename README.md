@@ -42,7 +42,6 @@ Run `docker network inspect` on the network (e.g. `dockerhadoop_default`) to fin
 * Spark master: http://<dockerhadoop_IP_address>:8080/
 * Spark worker: http://<dockerhadoop_IP_address>:8081/
 * Hive: http://<dockerhadoop_IP_address>:10000
-* Spark-notebook: http://<dockerhadoop_IP_address>:9001
 * Hue (HDFS Filebrowser): http://<dockerhadoop_IP_address>:8088/home
 
 ## Configure Environment Variables
