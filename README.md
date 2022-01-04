@@ -39,6 +39,11 @@ Run `docker network inspect` on the network (e.g. `dockerhadoop_default`) to fin
 * Datanode: http://<dockerhadoop_IP_address>:9864/
 * Nodemanager: http://<dockerhadoop_IP_address>:8042/node
 * Resource manager: http://<dockerhadoop_IP_address>:8088/
+* Spark master: http://<dockerhadoop_IP_address>:8080/
+* Spark worker: http://<dockerhadoop_IP_address>:8081/
+* Hive: http://<dockerhadoop_IP_address>:10000
+* Spark-notebook: http://<dockerhadoop_IP_address>:9001
+* Hue (HDFS Filebrowser): http://<dockerhadoop_IP_address>:8088/home
 
 ## Configure Environment Variables
 
