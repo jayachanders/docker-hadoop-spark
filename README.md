@@ -44,6 +44,18 @@ Run `docker network inspect` on the network (e.g. `dockerhadoop_default`) to fin
 * Hive: http://<dockerhadoop_IP_address>:10000
 * Hue (HDFS Filebrowser): http://<dockerhadoop_IP_address>:8088/home
 
+
+## Quick Start Spark (PySpark)
+
+Go to http://<dockerhadoop_IP_address>:8080 or http://localhost:8080/ on your Docker host (laptop) to see the status of the Spark master.
+
+Go to the command line of the Spark master and start PySpark.
+```
+  docker exec -it spark-master bash
+
+  /spark/bin/pyspark --master spark://spark-master:7077
+```
+
 ## Configure Environment Variables
 
 The configuration parameters can be specified in the hadoop.env file or as environmental variables for specific services (e.g. namenode, datanode etc.):
